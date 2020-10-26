@@ -3224,6 +3224,20 @@ input, select, textarea {
 					padding: 0;
 				}
 
+
+	/* Button for DESKTOP SCREEN*/			
+	@media only screen and (min-width: 992px){
+		.col-4.col-12-medium{
+			position: relative;
+			padding-bottom: 0%;
+		}
+		.col-4.col-12-medium .button{
+			position:absolute;
+			bottom: 5%;
+			right: 25%;
+		}
+	}
+			
 /* XLarge */
 
 	@media screen and (max-width: 1680px) {
