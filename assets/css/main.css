@@ -3236,6 +3236,9 @@ input, select, textarea {
 			bottom: 5%;
 			right: 25%;
 		}
+		.image.fit img{
+			height:250px;
+		}
 	}
 			
 /* XLarge */
