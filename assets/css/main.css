@@ -77,7 +77,16 @@ input, select, textarea {
 	html {
 		box-sizing: border-box;
 	}
-
+	.complete{
+		display:none;
+	}
+	
+	.read{
+		background:lightblue;
+		padding:3px;
+		margin-top: 1em;
+		cursor:pointer;
+	}
 	*, *:before, *:after {
 		box-sizing: inherit;
 	}
